@@ -1,2 +1,2 @@
 # DioDocsBenchmark
-.NET Core 3.0でDioDocsのベンチマークを確かめてみる
+.NET Core 3.0でDioDocsのベンチマークを確かめてみる。
