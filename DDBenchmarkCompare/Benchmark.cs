@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Jobs;
 using ClosedXML.Excel;
 using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
@@ -10,7 +11,7 @@ using Workbook = GrapeCity.Documents.Excel.Workbook;
 
 namespace DDBenchmarkCompare
 {
-    [CoreJob]
+    [SimpleJob(RuntimeMoniker.NetCoreApp31)]
     public class Benchmark
     {
         [Params(1000)]
